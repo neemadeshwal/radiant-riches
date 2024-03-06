@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.panel-container {
+  overflow: hidden;
+  height: 0;
+  margin: 0;
+  transition: height 0.5s ease-out;
+  padding-top: 0;
+}
+
+.panel-container.open {
+  height: 400px;
+}
+
+button:hover {
+  background-color: blue;
+}
